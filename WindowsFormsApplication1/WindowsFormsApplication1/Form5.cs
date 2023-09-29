@@ -63,5 +63,10 @@ namespace WindowsFormsApplication1
             txtDisplay.Clear();
         }
 
+        private void btnCham_Click(object sender, EventArgs e)
+        {
+            txtDisplay.Text += btnCham.Text;
+        }
+
     }
 }
